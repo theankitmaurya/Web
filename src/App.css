@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+
+:root {
+  --yellow: #fffc54;
+  --grey: #282828;
+  --green: #52b788;
+  --white: #ffffff;
+  --darkGrey: #1a1a1a;
+  --lessWhite: #fafafa;
+  --hrColor: #000000;
+  --tagColor: #828282;
+}
+body {
+  background-color: var(--darkGrey);
+  font-family: "Space Grotesk", sans-serif;
+}
+
+::selection {
+  background-color: var(--yellow);
+  color: var(--grey);
+}
+
+.app {
+  overflow: hidden;
+  color: var(--lessWhite);
+  padding: 1rem 1rem;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.button {
+  height: 2rem;
+  width: 7rem;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--hrColor);
+  border: none;
+  border-radius: 11px;
+  background: var(--yellow);
+  transition: all 100ms ease-out;
+}
+
+.button:hover {
+  cursor: pointer;
+}

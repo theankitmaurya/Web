@@ -1,0 +1,91 @@
+.post {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--grey);
+  border-radius: 20px;
+  gap: 1rem;
+}
+
+.post > img {
+  float: left;
+  width: 3rem;
+  height: 3rem;
+  border: 3px solid var(--darkGrey);
+  border-radius: 18px;
+  margin-right: 1rem;
+}
+
+.fix {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  border-radius: 18px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.personId {
+  display: flex;
+  align-items: center;
+  color: var(--tagColor);
+  gap: 5px;
+}
+
+.personId > img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.personName {
+  display: inline-block;
+}
+
+.personName > span:nth-of-type(2) {
+  margin-left: 18px;
+}
+
+.center > .personName > span:nth-of-type(2) {
+  color: var(--yellow);
+}
+
+.postDetails {
+  margin-bottom: 1rem;
+}
+
+.postImg > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.postReaction {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postReaction > div {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.postReaction > div > img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.postReaction > div > .button {
+  display: flex;
+}
