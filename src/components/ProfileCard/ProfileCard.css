@@ -1,4 +1,4 @@
-.profileCard {
+/* .profileCard {
   border-radius: 1.5rem;
   display: flex;
   flex-direction: column;
@@ -6,99 +6,96 @@
   gap: 1rem;
   overflow-x: hidden;
   background: var(--grey);
-}
+} */
 
-.profileImages {
+/* .profileImages {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
+} */
 
-.profileImages > img:nth-of-type(1) {
+/* .profileImages > img:nth-of-type(1) {
   width: 100%;
-}
+} */
 
-.profileImages > img:nth-of-type(2) {
+/* .profileImages > img:nth-of-type(2) {
   width: 6rem;
   border: 4px solid var(--grey);
   border-radius: 20px;
   position: absolute;
   bottom: -4rem;
-}
+} */
 
-.profileName {
+/* .profileName {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 0.2rem;
   gap: 10px;
-}
+} */
 
-.profileName > span:nth-of-type(1) {
+/* .profileName > span:nth-of-type(1) {
   font-weight: bold;
-}
+} */
 
-.profileName > span:nth-of-type(2) {
+/* .profileName > span:nth-of-type(2) {
   color: var(--tagColor);
   font-size: 13px;
-}
+} */
 
-.followStatus {
+/* .followStatus {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 0.75rem;
-}
+} */
 
-.followStatus > div {
+/* .followStatus > div {
   display: flex;
   width: 90%;
   justify-content: space-between;
   align-items: center;
-}
+} */
 
-.follow {
+/* .follow {
   display: flex;
   flex-direction: column;
   gap: 0.01rem;
   align-items: center;
   justify-content: center;
-}
+} */
 
-.follow > span:nth-of-type(1) {
+/* .follow > span:nth-of-type(1) {
   font-weight: bold;
-}
+} */
 
-.follow > span:nth-of-type(2) {
+/* .follow > span:nth-of-type(2) {
   color: var(--tagColor);
   font-size: 13px;
-}
+} */
 
-.profileBio > span {
+/* .profileBio > span {
   padding: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-}
+} */
 
-.divide {
+/* .divide {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 0.75rem;
-}
+} */
 
-.divide > hr {
-  width: 85%;
-  border: 1px solid var(--hrColor);
-}
 
-.profileCard > span {
+
+/* .profileCard > span {
   width: 85%;
   padding: 5px;
   display: flex;
@@ -109,4 +106,4 @@
   border-radius: 10px;
   color: var(--lessWhite);
   background-color: var(--darkGrey);
-}
+} */

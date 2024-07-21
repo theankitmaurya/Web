@@ -1,21 +1,37 @@
+// import "./Skills.css";
 import React from "react";
-import "./Skills.css";
 
 const Skills = () => {
   return (
-    <div className="skills">
-      <div>
+    <div className="w-full rounded-xl flex flex-col gap-4">
+      <div className="font-bold">
         <h3>Skills</h3>
       </div>
-      <div className="skill">
-        <span>UX Design</span>
-        <span>Copywriting</span>
-        <span>Mobile</span>
-        <span>Research</span>
-        <span>User Interview</span>
-        <span>JS</span>
-        <span>Logo</span>
-        <span>Photoshop</span>
+      <div className="relative gap-4 rounded-3xl">
+        <span className="inline-block rounded-3xl cursor-pointer text-center w-[150px] h-10 bg-[#282828] mr-2.5 mb-2.5 pt-2">
+          UX Design
+        </span>
+        <span className="inline-block rounded-3xl cursor-pointer text-center w-[150px] h-10 bg-[#282828] mr-2.5 mb-2.5 pt-2">
+          Copywriting
+        </span>
+        <span className="inline-block rounded-3xl cursor-pointer text-center w-[150px] h-10 bg-[#282828] mr-2.5 mb-2.5 pt-2">
+          Mobile
+        </span>
+        <span className="inline-block rounded-3xl cursor-pointer text-center w-[150px] h-10 bg-[#282828] mr-2.5 mb-2.5 pt-2">
+          Research
+        </span>
+        <span className="inline-block rounded-3xl cursor-pointer text-center w-[150px] h-10 bg-[#282828] mr-2.5 mb-2.5 pt-2">
+          User Interview
+        </span>
+        <span className="inline-block rounded-3xl cursor-pointer text-center w-[150px] h-10 bg-[#282828] mr-2.5 mb-2.5 pt-2">
+          JS
+        </span>
+        <span className="inline-block rounded-3xl cursor-pointer text-center w-[150px] h-10 bg-[#282828] mr-2.5 mb-2.5 pt-2">
+          Logo
+        </span>
+        <span className="inline-block rounded-3xl cursor-pointer text-center w-[150px] h-10 bg-[#282828] mr-2.5 mb-2.5 pt-2">
+          Photoshop
+        </span>
       </div>
     </div>
   );

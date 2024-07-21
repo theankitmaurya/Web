@@ -1,13 +1,12 @@
 import React from "react";
-import "./SearchBar.css";
 import Logo from "../../assets/logo.png";
 
 const SearchBar = () => {
   return (
-    <div className="searchbar">
-      <img src={Logo} className="logo" alt="" />
-      <div className="search">
-        <input type="text" placeholder="# Explore" />
+    <div className="flex gap-3">
+      <img src={Logo} className="h-10" alt="" />
+      <div className="flex p-[5px] pl-[5px]">
+        <input type="text" placeholder="# Explore" className="bg-[#282828] pl-[10px] border-none outline-none rounded-3xl" />
       </div>
     </div>
   );

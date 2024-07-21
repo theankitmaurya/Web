@@ -10,6 +10,7 @@
   --hrColor: #000000;
   --tagColor: #828282;
 }
+
 body {
   background-color: var(--darkGrey);
   font-family: "Space Grotesk", sans-serif;
@@ -18,12 +19,6 @@ body {
 ::selection {
   background-color: var(--yellow);
   color: var(--grey);
-}
-
-.app {
-  overflow: hidden;
-  color: var(--lessWhite);
-  padding: 1rem 1rem;
 }
 
 ::-webkit-scrollbar {
