@@ -1,5 +1,4 @@
 import React from "react";
-// import "./RightHomePage.css";
 import LogOut from "../LogOut/LogOut";
 import Followers from "../RecentActivity/Followers";
 import Followed from "../Followed/Followed";

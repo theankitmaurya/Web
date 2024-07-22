@@ -1,4 +1,3 @@
-// import "./MiddleHomePage.css";
 import React from "react";
 import Stories from "../Stories/Stories";
 import NavIcons from "../NavIcons/NavIcons";

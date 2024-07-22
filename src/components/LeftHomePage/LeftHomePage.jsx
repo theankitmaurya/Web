@@ -1,5 +1,4 @@
 import React from "react";
-// import "./LeftHomePage.css";
 import SearchBar from "../SearchBar/SearchBar";
 import ProfileCard from "../ProfileCard/ProfileCard";
 import Skills from "../Skills/Skills";

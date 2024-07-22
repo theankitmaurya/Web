@@ -7,7 +7,11 @@ const ProfileCard = () => {
     <div className="bg-[#282828] rounded-3xl flex flex-col relative gap-4 overflow-x-hidden">
       <div className="relative flex flex-col items-center justify-center">
         <img src={Cover} alt="" className="w-full" />
-        <img src={Profile} alt="" className="w-24 border-4 border-[#fffc54] rounded-[20px] absolute bottom-[-4rem]" />
+        <img
+          src={Profile}
+          alt=""
+          className="w-24 border-4 border-[#fffc54] rounded-[20px] absolute bottom-[-4rem]"
+        />
       </div>
 
       <div className="flex flex-col items-center justify-center gap-3">
@@ -33,7 +37,7 @@ const ProfileCard = () => {
       </div>
 
       <div className="flex flex-col items-center justify-center gap-3">
-        <hr className="w-[85%] border-1 border-black"/>
+        <hr className="w-[85%] border-1 border-black" />
       </div>
 
       <span className="flex self-center justify-center cursor-pointer text-[#fafafa] bg-[#1a1a1a] w-[85%] p-[5px] mb-4 rounded-[10px]">

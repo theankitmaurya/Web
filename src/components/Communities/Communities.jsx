@@ -12,8 +12,8 @@ const Communities = () => {
           <h3>Communities</h3>
         </div>
         <div className="flex items-end justify-between cursor-pointer gap-8 mr-[15px]">
-          <img src={Search} alt="" className="w-6"/>
-          <img src={AddNew} alt="" className="w-6"/>
+          <img src={Search} alt="" className="w-6" />
+          <img src={AddNew} alt="" className="w-6" />
         </div>
       </div>
 
@@ -21,7 +21,11 @@ const Communities = () => {
         return (
           <div className="flex justify-between items-center">
             <div className="flex justify-between items-center gap-2.5">
-              <img src={community.img} alt="" className="communityImage w-20 h-20 rounded-3xl border-4 border-[#282828]" />
+              <img
+                src={community.img}
+                alt=""
+                className="communityImage w-20 h-20 rounded-3xl border-4 border-[#282828]"
+              />
               <div className="flex flex-col items-center justify-center">
                 <span className="font-bold">{community.name}</span>
                 <span className="text-[#828282]">{community.friendsIn}</span>

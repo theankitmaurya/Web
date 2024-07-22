@@ -33,20 +33,32 @@ const PostShare = () => {
           className="p-[10px] text-[14px] border-none outline-none rounded-[18px] bg-[#1a1a1a]"
         />
         <div className="flex justify-around">
-          <div className="w-40 h-10 p-[5px] pl-[10px] pr-[10px] rounded-3xl flex items-center justify-center bg-[#1a1a1a] hover:cursor-pointer" onClick={() => imageRef.current.click()}>
-            <img src={Photo} alt="" className="w-6 h-6 mr-1"/>
+          <div
+            className="w-40 h-10 p-[5px] pl-[10px] pr-[10px] rounded-3xl flex items-center justify-center bg-[#1a1a1a] hover:cursor-pointer"
+            onClick={() => imageRef.current.click()}
+          >
+            <img src={Photo} alt="" className="w-6 h-6 mr-1" />
             Photo
           </div>
-          <div className="w-40 h-10 p-[5px] pl-[10px] pr-[10px] rounded-3xl flex items-center justify-center bg-[#1a1a1a] hover:cursor-pointer" onClick={() => imageRef.current.click()}>
-            <img src={Video} alt="" className="w-6 h-6 mr-1"/>
+          <div
+            className="w-40 h-10 p-[5px] pl-[10px] pr-[10px] rounded-3xl flex items-center justify-center bg-[#1a1a1a] hover:cursor-pointer"
+            onClick={() => imageRef.current.click()}
+          >
+            <img src={Video} alt="" className="w-6 h-6 mr-1" />
             Video
           </div>
-          <div className="w-40 h-10 p-[5px] pl-[10px] pr-[10px] rounded-3xl flex items-center justify-center bg-[#1a1a1a] hover:cursor-pointer" onClick={() => imageRef.current.click()}>
-            <img src={Poll} alt="" className="w-6 h-6 mr-1"/>
+          <div
+            className="w-40 h-10 p-[5px] pl-[10px] pr-[10px] rounded-3xl flex items-center justify-center bg-[#1a1a1a] hover:cursor-pointer"
+            onClick={() => imageRef.current.click()}
+          >
+            <img src={Poll} alt="" className="w-6 h-6 mr-1" />
             Poll
           </div>
-          <div className="w-40 h-10 p-[5px] pl-[10px] pr-[10px] rounded-3xl flex items-center justify-center bg-[#1a1a1a] hover:cursor-pointer" onClick={() => imageRef.current.click()}>
-            <img src={Schedule} alt="" className="w-6 h-6 mr-1"/>
+          <div
+            className="w-40 h-10 p-[5px] pl-[10px] pr-[10px] rounded-3xl flex items-center justify-center bg-[#1a1a1a] hover:cursor-pointer"
+            onClick={() => imageRef.current.click()}
+          >
+            <img src={Schedule} alt="" className="w-6 h-6 mr-1" />
             Schedule
           </div>
           <div style={{ display: "none" }} onChange={onImageChange}>
@@ -55,8 +67,17 @@ const PostShare = () => {
         </div>
         {image && (
           <div className="relative">
-            <img src={Close} alt="" onClick={() => setImage(null)} className="h-6 w-6 absolute right-4 top-2 cursor-pointer"/>
-            <img src={image.image} alt="" className="w-full h-full object-cover rounded-3xl"/>
+            <img
+              src={Close}
+              alt=""
+              onClick={() => setImage(null)}
+              className="h-6 w-6 absolute right-4 top-2 cursor-pointer"
+            />
+            <img
+              src={image.image}
+              alt=""
+              className="w-full h-full object-cover rounded-3xl"
+            />
           </div>
         )}
       </div>
