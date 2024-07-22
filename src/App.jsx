@@ -1,10 +1,12 @@
 import "./App.css";
+import Profile from "./components/Profile/Profile";
 import Home from "./pages/HomePage/Home";
 
 function App() {
   return (
     <div className="overflow-hidden text-[#fafafa] p-4">
-      <Home />
+      {/* <Home /> */}
+      <Profile />
     </div>
   );
 }

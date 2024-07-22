@@ -3,6 +3,10 @@ import Cover from "../../assets/circle.jpg";
 import Profile from "../../assets/profileimg.jpg";
 
 const ProfileCard = () => {
+
+  const ProfilePage = true;
+
+  
   return (
     <div className="bg-[#282828] rounded-3xl flex flex-col relative gap-4 overflow-x-hidden">
       <div className="relative flex flex-col items-center justify-center">
@@ -36,13 +40,18 @@ const ProfileCard = () => {
         <span>🌟Hello, I'm UX/UI designer. Open to the new projects.🌟</span>
       </div>
 
+      { ProfilePage ? "" :
       <div className="flex flex-col items-center justify-center gap-3">
         <hr className="w-[85%] border-1 border-black" />
       </div>
+}
 
+
+      { ProfilePage ? "" :
       <span className="flex self-center justify-center cursor-pointer text-[#fafafa] bg-[#1a1a1a] w-[85%] p-[5px] mb-4 rounded-[10px]">
         My Profile
       </span>
+}
     </div>
   );
 };
