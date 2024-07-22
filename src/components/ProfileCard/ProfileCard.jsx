@@ -4,7 +4,7 @@ import Profile from "../../assets/profileimg.jpg";
 
 const ProfileCard = () => {
 
-  const ProfilePage = true;
+  const ProfilePage = false;
 
   
   return (
