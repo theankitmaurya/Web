@@ -71,6 +71,24 @@ import post70 from "../assets/post70.jpg";
 import post71 from "../assets/post71.jpg";
 import post72 from "../assets/post72.jpg";
 import post73 from "../assets/post73.jpg";
+import post74 from "../assets/post74.jpg";
+import post75 from "../assets/post75.jpg";
+import post76 from "../assets/post76.jpg";
+import post77 from "../assets/post77.jpg";
+import post78 from "../assets/post78.jpg";
+import post79 from "../assets/post79.jpg";
+import post80 from "../assets/post80.jpg";
+import post81 from "../assets/post81.jpg";
+import post82 from "../assets/post82.jpg";
+import post83 from "../assets/post83.jpg";
+import post84 from "../assets/post84.jpg";
+import post85 from "../assets/post85.jpg";
+import post86 from "../assets/post86.jpg";
+import post87 from "../assets/post87.jpg";
+import post88 from "../assets/post88.jpg";
+import post89 from "../assets/post89.jpg";
+import post90 from "../assets/post90.jpg";
+import post91 from "../assets/post91.jpg";
 import postedby1 from "../assets/postedby1.jpg";
 import postedby2 from "../assets/postedby2.jpg";
 import postedby3 from "../assets/postedby3.jpg";
@@ -802,6 +820,186 @@ export const PostData = [
   },
   {
     img: post73,
+    userId: "zoey",
+    name: "Zoey Sadie",
+    desc: "Starting the journey again.",
+    time: "1 hr ago",
+    tick: tickImg,
+    liked: true,
+    posted: postedby6,
+  },
+  {
+    img: post74,
+    userId: "zoey",
+    name: "Zoey Sadie",
+    desc: "Starting the journey again.",
+    time: "1 hr ago",
+    tick: tickImg,
+    liked: true,
+    posted: postedby6,
+  },
+  {
+    img: post75,
+    userId: "zoey",
+    name: "Zoey Sadie",
+    desc: "Starting the journey again.",
+    time: "1 hr ago",
+    tick: tickImg,
+    liked: true,
+    posted: postedby6,
+  },
+  {
+    img: post76,
+    userId: "zoey",
+    name: "Zoey Sadie",
+    desc: "Starting the journey again.",
+    time: "1 hr ago",
+    tick: tickImg,
+    liked: true,
+    posted: postedby6,
+  },
+  {
+    img: post77,
+    userId: "zoey",
+    name: "Zoey Sadie",
+    desc: "Starting the journey again.",
+    time: "1 hr ago",
+    tick: tickImg,
+    liked: true,
+    posted: postedby6,
+  },
+  {
+    img: post78,
+    userId: "zoey",
+    name: "Zoey Sadie",
+    desc: "Starting the journey again.",
+    time: "1 hr ago",
+    tick: tickImg,
+    liked: true,
+    posted: postedby6,
+  },
+  {
+    img: post79,
+    userId: "zoey",
+    name: "Zoey Sadie",
+    desc: "Starting the journey again.",
+    time: "1 hr ago",
+    tick: tickImg,
+    liked: true,
+    posted: postedby6,
+  },
+  {
+    img: post80,
+    userId: "zoey",
+    name: "Zoey Sadie",
+    desc: "Starting the journey again.",
+    time: "1 hr ago",
+    tick: tickImg,
+    liked: true,
+    posted: postedby6,
+  },
+  {
+    img: post81,
+    userId: "zoey",
+    name: "Zoey Sadie",
+    desc: "Starting the journey again.",
+    time: "1 hr ago",
+    tick: tickImg,
+    liked: true,
+    posted: postedby6,
+  },
+  {
+    img: post82,
+    userId: "zoey",
+    name: "Zoey Sadie",
+    desc: "Starting the journey again.",
+    time: "1 hr ago",
+    tick: tickImg,
+    liked: true,
+    posted: postedby6,
+  },
+  {
+    img: post83,
+    userId: "zoey",
+    name: "Zoey Sadie",
+    desc: "Starting the journey again.",
+    time: "1 hr ago",
+    tick: tickImg,
+    liked: true,
+    posted: postedby6,
+  },
+  {
+    img: post84,
+    userId: "zoey",
+    name: "Zoey Sadie",
+    desc: "Starting the journey again.",
+    time: "1 hr ago",
+    tick: tickImg,
+    liked: true,
+    posted: postedby6,
+  },
+  {
+    img: post85,
+    userId: "zoey",
+    name: "Zoey Sadie",
+    desc: "Starting the journey again.",
+    time: "1 hr ago",
+    tick: tickImg,
+    liked: true,
+    posted: postedby6,
+  },
+  {
+    img: post86,
+    userId: "zoey",
+    name: "Zoey Sadie",
+    desc: "Starting the journey again.",
+    time: "1 hr ago",
+    tick: tickImg,
+    liked: true,
+    posted: postedby6,
+  },
+  {
+    img: post87,
+    userId: "zoey",
+    name: "Zoey Sadie",
+    desc: "Starting the journey again.",
+    time: "1 hr ago",
+    tick: tickImg,
+    liked: true,
+    posted: postedby6,
+  },
+  {
+    img: post88,
+    userId: "zoey",
+    name: "Zoey Sadie",
+    desc: "Starting the journey again.",
+    time: "1 hr ago",
+    tick: tickImg,
+    liked: true,
+    posted: postedby6,
+  },
+  {
+    img: post89,
+    userId: "zoey",
+    name: "Zoey Sadie",
+    desc: "Starting the journey again.",
+    time: "1 hr ago",
+    tick: tickImg,
+    liked: true,
+    posted: postedby6,
+  },
+  {
+    img: post90,
+    userId: "zoey",
+    name: "Zoey Sadie",
+    desc: "Starting the journey again.",
+    time: "1 hr ago",
+    tick: tickImg,
+    liked: true,
+    posted: postedby6,
+  },
+  {
+    img: post91,
     userId: "zoey",
     name: "Zoey Sadie",
     desc: "Starting the journey again.",
