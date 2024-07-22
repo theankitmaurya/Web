@@ -69,6 +69,8 @@ import post68 from "../assets/post68.jpg";
 import post69 from "../assets/post69.jpg";
 import post70 from "../assets/post70.jpg";
 import post71 from "../assets/post71.jpg";
+import post72 from "../assets/post72.jpg";
+import post73 from "../assets/post73.jpg";
 import postedby1 from "../assets/postedby1.jpg";
 import postedby2 from "../assets/postedby2.jpg";
 import postedby3 from "../assets/postedby3.jpg";
@@ -729,6 +731,16 @@ export const PostData = [
     posted: postedby6,
   },
   {
+    img: post66,
+    userId: "zoey",
+    name: "Zoey Sadie",
+    desc: "Starting the journey again.",
+    time: "1 hr ago",
+    tick: tickImg,
+    liked: true,
+    posted: postedby6,
+  },
+  {
     img: post67,
     userId: "zoey",
     name: "Zoey Sadie",
@@ -770,6 +782,26 @@ export const PostData = [
   },
   {
     img: post71,
+    userId: "zoey",
+    name: "Zoey Sadie",
+    desc: "Starting the journey again.",
+    time: "1 hr ago",
+    tick: tickImg,
+    liked: true,
+    posted: postedby6,
+  },
+  {
+    img: post72,
+    userId: "zoey",
+    name: "Zoey Sadie",
+    desc: "Starting the journey again.",
+    time: "1 hr ago",
+    tick: tickImg,
+    liked: true,
+    posted: postedby6,
+  },
+  {
+    img: post73,
     userId: "zoey",
     name: "Zoey Sadie",
     desc: "Starting the journey again.",

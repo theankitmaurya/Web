@@ -24,7 +24,7 @@ const Communities = () => {
               <img
                 src={community.img}
                 alt=""
-                className="communityImage w-20 h-20 rounded-3xl border-4 border-[#282828]"
+                className="communityImage w-20 h-20 rounded-3xl border-4 border-[#282828] cursor-pointer"
               />
               <div className="flex flex-col items-center justify-center">
                 <span className="font-bold">{community.name}</span>
