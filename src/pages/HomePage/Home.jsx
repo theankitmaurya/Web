@@ -1,12 +1,11 @@
 import React from "react";
-import "./Home.css";
 import LeftHomePage from "../../components/LeftHomePage/LeftHomePage";
 import RightHomePage from "../../components/RightHomePage/RightHomePage";
 import MiddleHomePage from "../../components/MiddleHomePage/MiddleHomePage";
 
 const Home = () => {
   return (
-    <div className="home">
+    <div className="relative grid grid-cols-[20rem_auto_20rem] gap-4">
       <LeftHomePage />
       <MiddleHomePage />
       <RightHomePage />
