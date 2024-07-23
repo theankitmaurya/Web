@@ -1,7 +1,7 @@
 import React from "react";
-import LeftHomePage from "../../components/LeftHomePage/LeftHomePage";
-import RightHomePage from "../../components/RightHomePage/RightHomePage";
-import MiddleHomePage from "../../components/MiddleHomePage/MiddleHomePage";
+import LeftHomePage from "../../components/HomeUI/LeftHomePage/LeftHomePage";
+import RightHomePage from "../../components/HomeUI/RightHomePage/RightHomePage";
+import MiddleHomePage from "../../components/HomeUI/MiddleHomePage/MiddleHomePage";
 
 const Home = () => {
   return (
