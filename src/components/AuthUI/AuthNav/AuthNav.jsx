@@ -7,7 +7,7 @@ const AuthNav = () => {
     <div className="flex items-center justify-between px-[25px] py-[5px] bg-[#282828] rounded-[18px] mb-12">
       <div className="flex items-center justify-between gap-4">
         <div className="w-12 h-12">
-          <img src={Logo} alt="" />
+          <img src={Logo} alt="" className="cursor-pointer"/>
         </div>
         <div className="flex items-center">
           <ul className="flex list-none m-0 p-0">
