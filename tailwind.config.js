@@ -6,9 +6,16 @@ export default {
       width: {
         'custom': 'calc(33.33% - 10px)',
       },
-      translate: {
-        '-1/2': '-50%',
-      }
+      colors: {
+        yellow: '#fffc54',
+        grey: '#282828',
+        green: '#52b788',
+        white: '#ffffff',
+        darkGrey: '#1a1a1a',
+        lessWhite: '#fafafa',
+        hrColor: '#000000',
+        tagColor: '#828282',
+      },
     },
   },
   plugins: [],
