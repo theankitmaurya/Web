@@ -3,7 +3,7 @@ import Edit from "../../../assets/edit.png";
 
 const Bio = () => {
   return (
-    <div className="flex flex-col gap-3 bg-[#282828] p-4 rounded-2xl w-[90%]">
+    <div className="flex flex-col gap-3 bg-grey p-4 rounded-2xl w-[90%]">
       <div className="flex justify-between items-center">
         <h3>Your Bio</h3>
         <img src={Edit} alt="" className="w-5 h-5 cursor-pointer" />

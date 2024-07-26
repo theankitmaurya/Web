@@ -4,7 +4,7 @@ import DropDown from "../../../assets/dropdown.png";
 
 const LogOut = () => {
   return (
-    <div className="flex gap-4 bg-[#282828] rounded-3xl ml-auto mb-4">
+    <div className="flex gap-4 bg-grey rounded-3xl ml-auto mb-4">
       <div className="p-2 flex items-center">
         <img src={ProfileImage} alt="" className="w-6 h-6 rounded-[10px]" />
         <div className="ml-[1.2rem] mr-[1.2rem] text-[13px]">Evgen Ledo</div>

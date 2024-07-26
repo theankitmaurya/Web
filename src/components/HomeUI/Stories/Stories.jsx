@@ -12,7 +12,7 @@ const Stories = () => {
               <img
                 src={story.img}
                 alt=""
-                className="w-[5.5rem] h-24 p-1 cursor-pointer rounded-3xl border-2 border-[#FFFC54]"
+                className="w-[5.5rem] h-24 p-1 cursor-pointer rounded-3xl border-2 border-yellow"
               />
               <div className="flex flex-col items-center justify-center">
                 <span>{story.name}</span>

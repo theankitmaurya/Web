@@ -6,21 +6,21 @@ import Share from "../../../assets/share.png";
 
 const Post = ({ data }) => {
   return (
-    <div className="inline-block justify-center items-center p-4 bg-[#282828] rounded-[20px] gap-4">
+    <div className="inline-block justify-center items-center p-4 bg-grey rounded-[20px] gap-4">
       <img
         src={data.posted}
         alt=""
-        className="float-left w-12 h-12 border-[3px] border-[#1a1a1a] rounded-[18px] mr-4"
+        className="float-left w-12 h-12 border-[3px] border-darkGrey rounded-[18px] mr-4"
       />
       <div className="flex flex-col">
         <div className="p-[10px] text-[14px] border-none outline-none rounded-[18px] flex items-start flex-col">
-          <div className="flex items-center text-[#828282] gap-[5px]">
+          <div className="flex items-center text-tagColor gap-[5px]">
             <span>@{data.userId}</span>
             <img src={data.tick} alt="" className="w-6 h-6" />
           </div>
           <div className="inline-block">
             <span>{data.name}</span>
-            <span className="ml-[18px] text-[#fffc54]">{data.time}</span>
+            <span className="ml-[18px] text-yellow">{data.time}</span>
           </div>
         </div>
       </div>

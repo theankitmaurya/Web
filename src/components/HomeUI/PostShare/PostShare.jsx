@@ -20,42 +20,42 @@ const PostShare = () => {
   };
 
   return (
-    <div className="hidden md:flex gap-4 bg-[#282828] p-4 rounded-3xl">
+    <div className="hidden md:flex gap-4 bg-grey p-4 rounded-3xl">
       <img
         src={ProfileImage}
         alt=""
-        className="w-12 h-12 border-[3px] border-[#1a1a1a] rounded-[18px]"
+        className="w-12 h-12 border-[3px] border-darkGrey rounded-[18px]"
       />
       <div className="flex flex-col w-[90%] gap-4">
         <input
           type="text"
           placeholder="Tell your friends about your thoughts..."
-          className="p-[10px] text-[14px] border-none outline-none rounded-[18px] bg-[#1a1a1a]"
+          className="p-[10px] text-[14px] border-none outline-none rounded-[18px] bg-darkGrey"
         />
         <div className="flex justify-around">
           <div
-            className="w-40 h-10 p-[5px] pl-[10px] pr-[10px] rounded-3xl flex items-center justify-center bg-[#1a1a1a] hover:cursor-pointer"
+            className="w-40 h-10 p-[5px] pl-[10px] pr-[10px] rounded-3xl flex items-center justify-center bg-darkGrey hover:cursor-pointer"
             onClick={() => imageRef.current.click()}
           >
             <img src={Photo} alt="" className="w-6 h-6 mr-1" />
             Photo
           </div>
           <div
-            className="w-40 h-10 p-[5px] pl-[10px] pr-[10px] rounded-3xl flex items-center justify-center bg-[#1a1a1a] hover:cursor-pointer"
+            className="w-40 h-10 p-[5px] pl-[10px] pr-[10px] rounded-3xl flex items-center justify-center bg-darkGrey hover:cursor-pointer"
             onClick={() => imageRef.current.click()}
           >
             <img src={Video} alt="" className="w-6 h-6 mr-1" />
             Video
           </div>
           <div
-            className="w-40 h-10 p-[5px] pl-[10px] pr-[10px] rounded-3xl flex items-center justify-center bg-[#1a1a1a] hover:cursor-pointer"
+            className="w-40 h-10 p-[5px] pl-[10px] pr-[10px] rounded-3xl flex items-center justify-center bg-darkGrey hover:cursor-pointer"
             onClick={() => imageRef.current.click()}
           >
             <img src={Poll} alt="" className="w-6 h-6 mr-1" />
             Poll
           </div>
           <div
-            className="w-40 h-10 p-[5px] pl-[10px] pr-[10px] rounded-3xl flex items-center justify-center bg-[#1a1a1a] hover:cursor-pointer"
+            className="w-40 h-10 p-[5px] pl-[10px] pr-[10px] rounded-3xl flex items-center justify-center bg-darkGrey hover:cursor-pointer"
             onClick={() => imageRef.current.click()}
           >
             <img src={Schedule} alt="" className="w-6 h-6 mr-1" />
