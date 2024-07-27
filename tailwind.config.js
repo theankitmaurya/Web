@@ -10,6 +10,7 @@ export default {
         yellow: '#fffc54',
         grey: '#282828',
         green: '#52b788',
+        blue: '#6cb8ff',
         white: '#ffffff',
         darkGrey: '#1a1a1a',
         lessWhite: '#fafafa',

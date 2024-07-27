@@ -140,7 +140,7 @@ const AuthDesc = () => {
                 />
               </div>
               <div className="mt-5 mb-5 flex items-center justify-between">
-                <span className="text-[#282828] text-[15px]">Remember Me</span>
+                <span className="text-yellow text-[15px]">Remember Me</span>
                 <input type="checkbox" className="h-5 w-5 cursor-pointer" />
               </div>
               <button

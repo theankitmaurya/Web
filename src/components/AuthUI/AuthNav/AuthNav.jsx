@@ -21,7 +21,7 @@ const AuthNav = () => {
             </li>
             <li className="ml-5 cursor-pointer hover:text-yellow">Liked</li>
             <li className="ml-5 cursor-pointer hover:text-yellow">Github</li>
-            <li className="ml-5 cursor-pointer hover:textyellow]">
+            <li className="ml-5 cursor-pointer hover:text-yellow">
               Settings
             </li>
           </ul>
